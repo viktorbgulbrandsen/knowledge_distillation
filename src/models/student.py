@@ -7,6 +7,7 @@ import numpy as np
 class StudentConfig:
     max_depth: int = 8
     min_samples_leaf: int = 10
+    random_state: int = 312
 
 
 class StudentTree:
@@ -19,6 +20,7 @@ class StudentTree:
         params = dict(
             max_depth=self.cfg.max_depth,
             min_samples_leaf=self.cfg.min_samples_leaf,
+            random_state=self.cfg.random_state,
         )
 
         if self.mode == "regression":
