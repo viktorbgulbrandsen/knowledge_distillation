@@ -1,0 +1,10 @@
+numpy
+pandas
+sentence-transformers
+torch
+transformers
+spacy
+scikit-learn
+matplotlib
+jupyter
+pyyaml

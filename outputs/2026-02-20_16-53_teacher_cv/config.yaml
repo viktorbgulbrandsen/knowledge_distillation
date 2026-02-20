@@ -1,0 +1,15 @@
+n_splits: 5
+seed: 312
+teacher:
+  batch_size: 128
+  dropout: 0.2
+  hidden_layers:
+  - 256
+  - 128
+  - 64
+  lr: 0.0005
+  n_classes: 6
+  weight_decay: 0.001
+trainer:
+  max_epochs: 200
+  patience: 15

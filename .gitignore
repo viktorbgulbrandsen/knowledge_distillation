@@ -3,3 +3,9 @@ __pycache__/
 *.pyc
 .env
 .vscode/
+
+data/
+
+*.egg-info/
+
+notes.md
